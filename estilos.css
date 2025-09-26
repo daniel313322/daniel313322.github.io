@@ -1,0 +1,29 @@
+/* Centra el h1 vertical y horizontalmente, con tamaño de letra 10rem y colores masculinos elegantes */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #232526 0%, #191a1a 100%);
+}
+
+h1 {
+  font-size: 10rem;
+  text-align: center;
+  font-family: 'Playfair Display', 'Serif', 'Georgia', 'Times New Roman', serif;
+  color: #1a237e;
+  text-shadow:
+    4px 4px 24px rgba(30, 30, 40, 0.6),
+    0 8px 48px rgba(33, 33, 61, 0.25);
+  letter-spacing: 4px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #266584 0%, #1565c0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+}
+
+/* Tipografía elegante: Google Fonts ejemplo */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
